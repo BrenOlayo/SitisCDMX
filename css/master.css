@@ -1,0 +1,255 @@
+.navbar-brand img {
+    height: 100%;
+    width: auto;
+}
+
+.navbar-brand {
+    float: left;
+    height: 70px;
+    padding: 5px 15px;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.navbar-brand-secondary {
+    -ms-flex-align: center;
+    align-items: center;
+    border-left: 1px solid;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.navbar-brand-secondary img {
+  height: 100%;
+  width: auto;
+}
+
+
+.navbar-custom {
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.18);
+    box-shadow: 0 2px 4px rgba(0,0,0,.18);
+}
+
+
+.antipasto {
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); */
+  box-shadow: 0 4px rgba(0,0,0,.18);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 4rem 0;
+}
+
+.antipasto-container {
+  height: 100px;
+  margin: 25px 0;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px rgba(0,0,0,.18)
+}
+
+.antipasto-container .row .col img {
+  height: 100%;
+}
+
+
+.logo-ecobici {
+  height: 120px;
+  text-align: center;
+}
+
+.btn-bar-registro {
+  height: 27px;
+  margin: 10px 0;
+  font-size: 14px !important;
+  background-color: #005244 !important;
+}
+
+.btn-bar-registro:hover {
+  background-color: #02705d !important;
+}
+.verde {
+  color: #009a44;
+}
+
+.gris {
+  color: #898d8d;
+}
+
+.teal-bg {
+  background-color: #009288;
+  display: block;
+}
+
+.blanco {
+  color: #fff;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.teal {
+  color: #009288;
+}
+
+
+.bg-bicis {
+  background-image: url(../images/bicis.jpg);
+  background-size: cover;
+}
+
+.proyecto {
+  margin-top: -48px;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.proyecto-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  margin: 4rem 0;
+  padding: 2rem;
+}
+
+.proyecto-left p {
+  font-weight: bold;
+  text-align: right;
+  font-size: 1.8rem;
+  margin-right: 2rem;
+}
+
+.proyecto-right p {
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}
+
+.proyecto-right {
+  border-left: 2px solid #009288;
+}
+
+.jumbotron {
+  padding: 0;
+}
+
+.teal-bg .container {
+  height: 95px;
+}
+
+hr {
+  border: 2px #d5d5d5 solid;
+}
+
+.lift-logo {
+  width: 100%;
+}
+
+.lift-info {
+  color: #898d8d;
+  font-size: 16px;
+}
+
+.lift-info ul li::before {
+  content: "\2022";
+  list-style: none;
+  color: #009288;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+
+.lift-info ul {
+  list-style: none;
+}
+
+.fondo-ondas {
+  background-image: url(../images/background.png);
+  background-size: cover;
+}
+
+.eventos {
+  color: #4a4e4e;
+  margin: 3rem 0;
+  padding: 3rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.evento-titulo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.evento-texto {
+  font-size: 12px;
+  color: #4a4e4e;
+}
+.evento-fecha {
+  text-align: right;
+}
+
+.evento-border {
+  border-left: 2px solid #009288;
+}
+.documento {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border: solid 2px #eaeaea;
+  border-radius: 14px;
+  margin: 3rem auto;
+  padding: 2rem;
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.registro {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border: solid 2px #eaeaea;
+  border-radius: 14px;
+  background-color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+.documento p {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 990px) {
+  /* For mobile phones: */
+  .proyecto-right {
+    border-left: none;
+    border-top: 2px solid #009288;
+    padding-top: 2rem;
+  }
+
+  .proyecto-left p {
+    text-align: left;
+  }
+
+  .antipasto {
+    padding: 4rem 2rem;
+  }
+
+  .evento-fecha {
+    text-align: left;
+    border-bottom: 2px solid #009288;
+    margin-bottom: 2rem;
+  }
+
+  .evento-border {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .teal-bg .container {
+    height: 120px;
+  }
+}
