@@ -55,9 +55,9 @@
 }
 
 
-.logo-ecobici {
+.logo-sitis {
   height: 120px;
-  text-align: center;
+  text-align: left;
 }
 
 .btn-bar-registro {
@@ -97,7 +97,7 @@
 
 
 .bg-bicis {
-  background-image: url(../images/bicis.jpg);
+  background-image: url(../images/bicis.png);
   background-size: cover;
 }
 
@@ -188,7 +188,7 @@ hr {
 }
 
 .evento-texto {
-  font-size: 12px;
+  font-size: 16px;
   color: #4a4e4e;
 }
 .evento-fecha {
@@ -201,7 +201,7 @@ hr {
 .documento {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border: solid 2px #eaeaea;
-  border-radius: 14px;
+  border-radius: 16px;
   margin: 3rem auto;
   padding: 2rem;
   min-height: 330px;
@@ -212,13 +212,14 @@ hr {
 .registro {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border: solid 2px #eaeaea;
-  border-radius: 14px;
+  border-radius: 16px;
   background-color: #fff;
   padding: 2rem;
   text-align: center;
 }
 .documento p {
-  font-size: 10px;
+  font-size: 16px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 990px) {
