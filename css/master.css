@@ -72,10 +72,22 @@
 }
 .verde {
   color: #009a44;
+  font-size: 2em;
 }
 
 .gris {
   color: #898d8d;
+  text-align: center;
+  font-size: 1em; 
+  margin-bottom:0.1em;
+}
+
+.gris-negro {
+  color: #5a5a5a;
+  text-align: center;
+  font-size:1.2em; 
+  line-height:1.2em; 
+  margin-bottom:0.5em;
 }
 
 .teal-bg {
@@ -89,6 +101,7 @@
 
 .line-height-1 {
   line-height: 1;
+  text-align: center;
 }
 
 .teal {
