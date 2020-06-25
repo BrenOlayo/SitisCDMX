@@ -163,6 +163,7 @@ hr {
 .lift-info {
   color: #898d8d;
   font-size: 16px;
+  text-align: justify;
 }
 
 .lift-info ul li::before {
@@ -187,6 +188,10 @@ hr {
   background-size: cover;
 }
 
+.fondo-ondeados {
+  background-image: url(../images/background.png);
+  background-repeat: repeat;
+}
 .eventos {
   color: #4a4e4e;
   margin: 3rem 0;
