@@ -1,3 +1,36 @@
+/* Initially hide the panel content */
+.panel {
+  display: none;
+}
+
+/* Style your buttons and add the '+' or '-' for open and closed state */
+.accordion {
+  background-color: #eee;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+.accordion.active {
+  background-color: #ccc;
+}
+
+/* Add a plus sign (+) to indicate closed panels */
+.accordion::before {
+  content: "+";
+  float: right;
+}
+
+/* Change the plus sign to a minus sign (-) for open panels */
+.accordion.active::before {
+  content: "-";
+}
+
+
 .navbar-brand img {
     height: 100%;
     width: auto;
@@ -226,7 +259,7 @@ hr {
   border-radius: 16px;
   margin: 3rem auto;
   padding: 2rem;
-  min-height: 330px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
