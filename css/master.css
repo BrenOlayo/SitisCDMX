@@ -64,11 +64,11 @@
   height: 27px;
   margin: 10px 0;
   font-size: 14px !important;
-  background-color: #005244 !important;
+  background-color: #691c32 !important;
 }
 
 .btn-bar-registro:hover {
-  background-color: #02705d !important;
+  background-color: #9f2241 !important;
 }
 .verde {
   color: #009a44;
@@ -90,8 +90,8 @@
   margin-bottom:0.5em;
 }
 
-.teal-bg {
-  background-color: #009288;
+.burgandy-bg {
+  background-color: #691c32;
   display: block;
 }
 
@@ -104,10 +104,14 @@
   text-align: center;
 }
 
-.teal {
-  color: #009288;
+.burgandy {
+  color: #691c32;
 }
 
+.gold {
+  color:#BC955C; 
+
+}
 
 .bg-bicis {
   background-image: url(../images/bicis.png);
@@ -141,19 +145,19 @@
 }
 
 .proyecto-right {
-  border-left: 2px solid #009288;
+  border-left: 2px solid #691c32;
 }
 
 .jumbotron {
   padding: 0;
 }
 
-.teal-bg .container {
+.burgandy-bg .container {
   height: 95px;
 }
 
 hr {
-  border: 2px #d5d5d5 solid;
+  border: 2px #BC955C solid;
 }
 
 .lift-logo {
@@ -169,7 +173,7 @@ hr {
 .lift-info ul li::before {
   content: "\2022";
   list-style: none;
-  color: #009288;
+  color: #691c32;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -214,7 +218,7 @@ hr {
 }
 
 .evento-border {
-  border-left: 2px solid #009288;
+  border-left: 2px solid #691c32;
 }
 .documento {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -228,11 +232,15 @@ hr {
   justify-content: space-between;
 }
 .registro {
+  
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border: solid 2px #eaeaea;
   border-radius: 16px;
   background-color: #fff;
   padding: 2rem;
+  margin-left: 8cm;
+  height: fit-content;
+  width: 500px;
   text-align: center;
 }
 .documento p {
@@ -243,8 +251,13 @@ hr {
   /* For mobile phones: */
   .proyecto-right {
     border-left: none;
-    border-top: 2px solid #009288;
+    border-top: 2px solid #691c32;
     padding-top: 2rem;
+  }
+
+  .registro {
+  margin: auto;
+  width: auto;
   }
 
   .proyecto-left p {
@@ -257,7 +270,7 @@ hr {
 
   .evento-fecha {
     text-align: left;
-    border-bottom: 2px solid #009288;
+    border-bottom: 2px solid #691c32;
     margin-bottom: 2rem;
   }
 
@@ -267,7 +280,7 @@ hr {
 }
 
 @media only screen and (max-width: 480px) {
-  .teal-bg .container {
+  .burgandy-bg .container {
     height: 120px;
   }
 }
