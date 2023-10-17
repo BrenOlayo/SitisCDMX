@@ -1,35 +1,21 @@
-/* Initially hide the panel content */
-.panel {
-  display: none;
+.collapsible.active {
+  background-color: #98989a;
 }
 
-/* Style your buttons and add the '+' or '-' for open and closed state */
-.accordion {
-  background-color: #eee;
-  color: #333;
+.collapsible {
+  background-color: #691c32;
+  color: white;
   cursor: pointer;
   padding: 10px;
-  width: 100%;
-  text-align: left;
   border: none;
-  outline: none;
+  text-align: center;
+  width: 100%;
 }
 
-.accordion.active {
-  background-color: #ccc;
+.content {
+  display:none;
+  padding: 10px;
 }
-
-/* Add a plus sign (+) to indicate closed panels */
-.accordion::before {
-  content: "+";
-  float: right;
-}
-
-/* Change the plus sign to a minus sign (-) for open panels */
-.accordion.active::before {
-  content: "-";
-}
-
 
 .navbar-brand img {
     height: 100%;
@@ -253,6 +239,7 @@ hr {
 .evento-border {
   border-left: 2px solid #691c32;
 }
+
 .documento {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border: solid 2px #eaeaea;
@@ -264,6 +251,21 @@ hr {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.información {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border: solid 2px #eaeaea;
+  border-radius: 16px;
+  margin: 3rem auto;
+  padding: 2rem;
+  height: 450px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
 .registro {
   
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
